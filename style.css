@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+.banner {
+  min-height: 70vh;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.banner h1, .banner h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+}
+
+.banner p {
+  font-size: 1.1em;
+  max-width: 600px;
+}
+
+/* CORES E IMAGENS */
+.banner-1 {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url("https://images.unsplash.com/photo-1588072432836-e10032774350") center/cover;
+}
+
+.banner-2 {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+  url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f") center/cover;
+}
+
+.banner-3 {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url("https://images.unsplash.com/photo-1509062522246-3755977927d7") center/cover;
+}
+
+/* BOTÃO */
+.btn {
+  margin-top: 20px;
+  padding: 14px 30px;
+  background: #ff6b9c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 1em;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff4f87;
+}
